@@ -51,9 +51,10 @@ header h2 {
   padding: 0.5rem 0rem;
 }
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  padding: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   width: 80%;
   margin: auto;
   row-gap: 5rem;
